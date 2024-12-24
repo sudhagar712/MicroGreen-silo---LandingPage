@@ -1,5 +1,5 @@
 import React from "react";
-import profileguy from "../../assets/images/profileguy.webp"
+import logo from "../../assets/images/logo.png"
 
 const Homeprofile = () => {
   return (
@@ -7,13 +7,21 @@ const Homeprofile = () => {
       {/* Profile Section */}
       <div className="max-w-6xl mx-auto text-center md:mt-10">
         <div className="flex flex-col items-center">
+          <h1 className="font-bold text-5xl mb-6">
+            <span className="text-green-500">A</span>bout{" "}
+          </h1>
           <img
-            src={profileguy} 
+            src={logo}
             alt="Profile"
-            className="rounded-full w-[400px] h-[400px]  md:w-[300px] md:h-[300px] object-cover border-8 border-green-300"
+            className="rounded-full w-[400px] h-[400px]  md:w-[360px] md:h-[350px] object-cover border-8 border-green-300"
           />
-          <h1 className="text-3xl font-bold text-gray-600 mt-4 p-3">Hi, I'm Milos! Are You Ready To Master Growing Microgreens?</h1>
-          <p className="text-2xl  text-gray-600 mt-3">You’ve come to the right place to learn everything there is about microgreens.</p>
+          {/* <h1 className="text-3xl font-bold text-gray-600 mt-4 p-3">
+            Hi, I'm Milos! Are You Ready To Master Growing Microgreens?
+          </h1>
+          <p className="text-2xl  text-gray-600 mt-3">
+            You’ve come to the right place to learn everything there is about
+            microgreens.
+          </p> */}
         </div>
 
         {/* Divider with Icon */}
@@ -44,26 +52,38 @@ const Homeprofile = () => {
           </div>
         </div>
 
-        {/* What MicroGreen Silo is About Section */}
-        <h2 className="text-4xl md:text-5xl p-3 font-bold text-gray-600 mb-8">What MicroGreen Silo Is All About</h2>
+        {/* What LeafitMicroGreens is About Section */}
+        {/* <h2 className="text-4xl md:text-5xl p-3 font-bold text-gray-600 mb-8">What LeafitMicroGreens Is All About</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 p-4 gap-10">
           <p className="text-gray-700 text-xl text-left">
             If you’ve ever thought: “Where can I find actionable microgreen growing advice, help, tips, and guides that get results?” you’re in the right place.
           </p>
           <p className="text-gray-700 text-xl text-left">
-            I created the Microgreen Silo so I can share with you my FREE practical growing advice, expert tips, and techniques, so you can grow your own right now.
+            I created the LeafitMicroGreens so I can share with you my FREE practical growing advice, expert tips, and techniques, so you can grow your own right now.
           </p>
           <p className="text-gray-700 text-xl text-left">
-     Microgreen Silo is where new and veteran microgreen growers turn for proven advice.
+     LeafitMicroGreens is where new and veteran microgreen growers turn for proven advice.
         </p>
         <p className="text-gray-700 text-xl text-left">
      No fluff or hard to follow advice, just insanely actionable growing tips that work!
         </p>
         
-        </div>
+        </div> */}
 
-        
+        <p className="text-xl  p-4">
+          Leafit, a pioneering microgreens company with a proud heritage of 25
+          years in the market, stands at the forefront of sustainable and
+          nutritious food solutions. With decades of expertise, we cultivate
+          premium-quality microgreens, harnessing innovation and eco-friendly
+          practices to bring fresh, flavorful, and nutrient-rich greens to your
+          table. Our commitment to quality and sustainability has earned us the
+          trust of health-conscious consumers, chefs, and businesses alike. At
+          Leafit, we blend tradition with cutting-edge techniques, ensuring
+          every product delivers unmatched taste and wellness benefits.
+          Experience the legacy of excellence that has defined us for a quarter
+          of a century.
+        </p>
       </div>
     </div>
   );
